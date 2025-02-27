@@ -1,77 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <title>FrontEnd Store</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header class="header">
-      <a href="index.html">
-        <img
-          class="header__logo"
-          src="img/logo.png"
-          alt="FrontEnd Store Logo"
-        />
-      </a>
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="FrontEnd Store Logo" />
+        </a>
     </header>
 
     <nav class="navegacion">
-      <a class="navegacion__enlace" href="index.html">Tienda</a>
-      <a
-        class="navegacion__enlace navegacion__enlace--activo"
-        href="nosotros.html"
-        >Nosotros</a
-      >
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html">Nosotros</a>
     </nav>
 
     <main class="contenedor">
-      <h1>Nosotros</h1>
+        <h1>Nosotros</h1>
 
-      <div class="nosotros">
-        <div class="nosotros__contenido">
-          <p>
-            Pellentesque in eleifend velit, non consequat felis. Etiam quis
-            purus tempus, hendrerit purus eget, pellentesque nibh. Donec eu
-            fermentum ex, a convallis dolor. Nunc id consectetur enim. Morbi
-            varius, leo quis accumsan auctor, ante est venenatis orci, vitae
-            convallis lectus sem a magna. Sed feugiat ipsum sapien, eget
-            placerat enim pulvinar ut. Phasellus ipsum sapien, posuere id
-            feugiat a, venenatis ac nibh. Vestibulum dictum aliquam nibh, vitae
-            aliquet velit vulputate id. Pellentesque a turpis vitae elit
-            tincidunt porta. Mauris molestie iaculis felis ullamcorper sagittis.
-            Donec leo magna, aliquet non vehicula eu, vestibulum consectetur
-            nibh.
-          </p>
-          <p>
-            Aliquam quis hendrerit nisl. In ut elit purus. Pellentesque
-            porttitor lorem turpis, ut maximus lacus viverra vel. Nunc eget sem
-            ac nunc consectetur fermentum. Curabitur volutpat lacinia nisl vel
-            placerat. Phasellus sagittis finibus libero sit amet faucibus. Donec
-            risus sem, facilisis id imperdiet ut, laoreet at quam. Donec
-            eleifend felis eget felis feugiat, ac convallis erat congue. Fusce
-            pharetra nec nisl vitae euismod. Proin eget viverra odio. Curabitur
-            consequat dictum arcu, et eleifend arcu pharetra in.
-          </p>
+        <div class="nosotros">
+            <div class="nosotros__contenido">
+                <p>
+                    Pellentesque in eleifend velit, non consequat felis. Etiam quis
+                    purus tempus, hendrerit purus eget, pellentesque nibh. Donec eu
+                    fermentum ex, a convallis dolor. Nunc id consectetur enim. Morbi
+                    varius, leo quis accumsan auctor, ante est venenatis orci, vitae
+                    convallis lectus sem a magna. Sed feugiat ipsum sapien, eget
+                    placerat enim pulvinar ut. Phasellus ipsum sapien, posuere id
+                    feugiat a, venenatis ac nibh.
+                    nibh.
+                </p>
+                <p>
+                    Aliquam quis hendrerit nisl. In ut elit purus. Pellentesque
+                    porttitor lorem turpis, ut maximus lacus viverra vel. Nunc eget sem
+                    ac nunc consectetur fermentum. Curabitur volutpat lacinia nisl vel
+                    placerat. Phasellus sagittis finibus libero sit amet faucibus. Nunc eget sem
+                    ac nunc consectetur fermentum. Curabitur volutpat lacinia nisl vel
+                    placerat. Phasellus sagittis finibus libero sit amet faucibus.
+                </p>
+            </div>
+            <img class="nosotros__imagen" src="img/nosotros.jpg" alt="imagen nosotros" />
         </div>
-        <img
-          class="nosotros__imagen"
-          src="img/nosotros.jpg"
-          alt="imagen nosotros"
-        />
-      </div>
     </main>
 
+    <section class="contenedor comprar">
+        <div class="comprar__titulo">
+            <h2 class="comprar__titulo">¿Porqué Comprar con Nosotros?</h2>
+        </div>
+        <div class="bloques">
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="porque comprar">
+                <h3 class="bloque__titulo">El Mejor Precio</h3>
+                <p>placerat. Phasellus sagittis finibus libero sit amet faucibus.</p>
+            </div> <!-- ESTE ES UN BLOQUE -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="porque comprar">
+                <h3 class="bloque__titulo">Para Devs</h3>
+                <p>placerat. Phasellus sagittis finibus libero sit amet faucibus.</p>
+            </div> <!-- ESTE ES UN BLOQUE -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="porque comprar">
+                <h3 class="bloque__titulo">Envío Gratis</h3>
+                <p>placerat. Phasellus sagittis finibus libero sit amet faucibus.</p>
+            </div> <!-- ESTE ES UN BLOQUE -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="porque comprar">
+                <h3 class="bloque__titulo">La Mejor Calidad</h3>
+                <p>placerat. Phasellus sagittis finibus libero sit amet faucibus.</p>
+            </div> <!-- ESTE ES UN BLOQUE -->
+
+        </div> <!-- ESTOS SON LOS BLOQUES -->
+    </section>
+
     <footer class="footer">
-      <p class="footer__texto">
-        Front End Store - Todos los derechos Reservados 2025
-      </p>
+        <p class="footer__texto">
+            Front End Store - Todos los derechos Reservados 2025
+        </p>
     </footer>
-  </body>
+</body>
+
 </html>
